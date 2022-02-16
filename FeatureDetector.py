@@ -3,7 +3,7 @@ import numpy as np
 
 #,0 will covert the image into gray scale
 
-img1=cv2.imread('ImageQuery/book1.JPG',0)
+img1=cv2.imread('ImageQuery/the_art_of_happiness.JPG', 0)
 img2=cv2.imread('ImagesTrain/book1.JPG',0)
 
 orb=cv2.ORB_create()
